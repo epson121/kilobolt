@@ -1,0 +1,7 @@
+package kilobolt;
+
+public class Background {
+	
+	private int bgX, bgY, speedX;
+
+}

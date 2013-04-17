@@ -1,0 +1,22 @@
+package kilobolt;
+
+public class Background {
+
+	private int bgX, bgY, speedX;
+
+	public Background(int bgX, int bgY) {
+		super();
+		this.bgX = bgX;
+		this.bgY = bgY;
+		speedX = 0;
+	}
+
+	public void update() {
+		bgX += speedX;
+
+		if (bgX <= -2160) {
+			bgX += 4320;
+		}
+	}
+
+}
