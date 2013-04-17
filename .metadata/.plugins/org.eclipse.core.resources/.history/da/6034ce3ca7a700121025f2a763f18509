@@ -17,10 +17,10 @@ public class Robot {
 		if (speedX < 0) {
 			centerX += speedX;
 		} else if (speedX == 0) {
-			//System.out.println("Do not scroll the background.");
+			System.out.println("Do not scroll the background.");
 
 		} else {
-			if (centerX <= 250) {
+			if (centerX <= 150) {
 				centerX += speedX;
 			} else {
 				//System.out.println("Scroll Background Here");

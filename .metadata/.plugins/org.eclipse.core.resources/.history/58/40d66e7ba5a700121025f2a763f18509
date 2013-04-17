@@ -1,7 +1,5 @@
 package kilobolt;
 
-import java.awt.Graphics;
-
 public class Robot {
 
 	private int centerX = 100;
@@ -16,14 +14,16 @@ public class Robot {
 		// Moves Character or Scrolls Background accordingly.
 		if (speedX < 0) {
 			centerX += speedX;
-		} else if (speedX == 0) {
-			//System.out.println("Do not scroll the background.");
-
-		} else {
-			if (centerX <= 250) {
+		} 
+		else if (speedX == 0) {
+			System.out.println("Do not scroll the background.");
+		} 
+		else {
+			if (centerX <= 150) {
 				centerX += speedX;
-			} else {
-				//System.out.println("Scroll Background Here");
+			} 
+			else {
+				System.out.println("Scroll Background Here");
 			}
 		}
 
@@ -71,46 +71,6 @@ public class Robot {
 			jumped = true;
 		}
 
-	}
-
-	public int getCenterX() {
-		return centerX;
-	}
-
-	public int getCenterY() {
-		return centerY;
-	}
-
-	public boolean isJumped() {
-		return jumped;
-	}
-
-	public int getSpeedX() {
-		return speedX;
-	}
-
-	public int getSpeedY() {
-		return speedY;
-	}
-
-	public void setCenterX(int centerX) {
-		this.centerX = centerX;
-	}
-
-	public void setCenterY(int centerY) {
-		this.centerY = centerY;
-	}
-
-	public void setJumped(boolean jumped) {
-		this.jumped = jumped;
-	}
-
-	public void setSpeedX(int speedX) {
-		this.speedX = speedX;
-	}
-
-	public void setSpeedY(int speedY) {
-		this.speedY = speedY;
 	}
 
 }

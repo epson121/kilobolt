@@ -20,7 +20,7 @@ public class Robot {
 			//System.out.println("Do not scroll the background.");
 
 		} else {
-			if (centerX <= 250) {
+			if (centerX <= 150) {
 				centerX += speedX;
 			} else {
 				//System.out.println("Scroll Background Here");
