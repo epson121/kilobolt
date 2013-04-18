@@ -111,13 +111,7 @@ public class Robot {
 	}
 	
 	public void shoot(){
-		Projectile p = new Projectile(centerX + 50, centerY - 25);
-		projectiles.add(p);
-	}
-	
-
-	public ArrayList<Projectile> getProjectiles() {
-		return projectiles;
+		Projectile p = new Projectile(centerX, centerY)
 	}
 
 	public int getCenterX() {

@@ -1,0 +1,13 @@
+package kilobolt;
+
+public class Projectile {
+
+	private int x, y, speedX;
+	private boolean visible;
+	
+	public Projectile(int startX, int startY) {
+		x = startX;
+		y = startY;
+	}
+
+}

@@ -108,16 +108,7 @@ public class Robot {
 			speedY = -15;
 			jumped = true;
 		}
-	}
-	
-	public void shoot(){
-		Projectile p = new Projectile(centerX + 50, centerY - 25);
-		projectiles.add(p);
-	}
-	
 
-	public ArrayList<Projectile> getProjectiles() {
-		return projectiles;
 	}
 
 	public int getCenterX() {

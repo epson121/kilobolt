@@ -1,0 +1,12 @@
+package kilobolt;
+
+public class Projectile {
+
+	private int x, y, speedX;
+	private boolean visible;
+	
+	public Projectile() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

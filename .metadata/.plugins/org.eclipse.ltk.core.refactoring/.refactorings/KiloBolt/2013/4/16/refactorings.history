@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;kilobolt.Projectiles&apos; to &apos;Projectile&apos;&#x0A;- Original project: &apos;KiloBolt&apos;&#x0A;- Original element: &apos;kilobolt.Projectiles&apos;&#x0A;- Renamed element: &apos;kilobolt.Projectile&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Projectiles&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;kilobolt{Projectiles.java[Projectiles" matchStrategy="1" name="Projectile" qualified="false" references="true" similarDeclarations="false" stamp="1366301938328" textual="false" version="1.0"/>
+</session>
