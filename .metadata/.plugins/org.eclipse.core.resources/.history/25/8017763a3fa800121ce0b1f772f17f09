@@ -1,0 +1,6 @@
+package kilobolt;
+
+public class Heliboy extends Enemy {
+	
+
+}

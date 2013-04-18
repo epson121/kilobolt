@@ -1,0 +1,10 @@
+package kilobolt;
+
+public class Heliboy extends Enemy {
+
+	public Heliboy() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,9 @@
+package kilobolt;
+
+public class Heliboy extends Enemy {
+
+	public Heliboy() {
+		super();
+	}
+
+}
