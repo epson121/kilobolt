@@ -6,4 +6,4 @@ Developed following the tutorial at: `http://www.kilobolt.com`
 
 Started on April 17. 2013.
 
-[logo]: https://www.dropbox.com/s/bcuafk3vroy4zfg/Selection_005.png "Screenshot"
+Screenshot : `https://www.dropbox.com/s/bcuafk3vroy4zfg/Selection_005.png`
