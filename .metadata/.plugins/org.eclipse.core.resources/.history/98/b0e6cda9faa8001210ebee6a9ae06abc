@@ -1,0 +1,8 @@
+package kilobolt.framework;
+
+import java.util.ArrayList;
+
+public class Animation {
+	
+	private ArrayList frames;	
+}

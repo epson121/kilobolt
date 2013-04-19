@@ -12,4 +12,7 @@
 <fullyQualifiedTypeName name="java.awt.Image"/>
 <fullyQualifiedTypeName name="java.net.URI"/>
 <fullyQualifiedTypeName name="java.awt.Graphics"/>
+<fullyQualifiedTypeName name="kilobolt.Enemy"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="kilobolt.Projectile"/>
 </qualifiedTypeNameHistroy>
