@@ -6,7 +6,6 @@ public class Enemy {
 
 	private int power, speedX, centerX, centerY;
 	private Background bg = StartingClass.getBg1();
-	private Robot robot = StartingClass.getRobot();
 	public int health = 5;
 	private int movementSpeed;
 	public Rectangle r = new Rectangle(0, 0, 0, 0);
