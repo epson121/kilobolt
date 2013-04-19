@@ -1,0 +1,41 @@
+package kilobolt;
+
+import java.awt.Image;
+
+public class Tile {
+
+	private int tileX, tileY, speedX, type;
+	public Image tileImage;
+	private Background bg = StartingClass.getBg1();
+	
+	public Tile(int tileX, int tileY, int type) {
+		super();
+		this.tileX = tileX * 40;
+		this.tileY = tileY * 40;
+		this.type = type;
+		
+		if (type == 1){
+			tileImage = StartingClass.tileOcean;
+		}
+		else if(type == 2){
+			tileImage = StartingClass.tileDirt;
+		}
+	}
+	
+	public void update(){
+		if (type == 1){
+			if (bg.getSpeedX() == 0){
+				speedX = -1;
+			}
+			else{
+				speedX = -2;
+			}
+		}
+		else{
+			speedX = bg.getSpeedX() * 5;
+		}
+	}
+	
+	
+	
+}
